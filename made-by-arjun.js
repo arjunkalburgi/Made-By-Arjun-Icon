@@ -1,5 +1,5 @@
 function madeByArjun() {
-    $("#made-by-arjun").attr("src", "https://rawgit.com/askalburgi/Made-By-Arjun-Icon/master/Logo.svg"); 
+    $("#made-by-arjun").attr("src", "https://rawgit.com/askalburgi/Made-By-Arjun-Icon/master/dependencies/Logo.svg"); 
 
     $("#made-by-arjun").hover(function () {
         // animate "Made by Arjun" msg
