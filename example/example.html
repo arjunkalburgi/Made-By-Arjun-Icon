@@ -19,11 +19,23 @@
         }
 
         footer {
-            padding-top: 20px;
             color: #fff;
             background-color: lightgray;
             height: 90px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
+
+        #made-by-arjun {
+            /* Place div */
+            height: 20px;
+            position: absolute;
+            right: 0;
+            /* Implement colour */
+            color: rgb(126, 125, 125);
+        }
+
     </style>
     <link rel="stylesheet" type="text/css" media="screen" href="../made-by-arjun.css" />
 
@@ -32,7 +44,7 @@
 <body>
     <main></main>
     <footer>
-        <img id="made-by-arjun" />
+        <div id="made-by-arjun"></div>
     </footer>
 </body>
 </html>

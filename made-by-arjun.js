@@ -1,5 +1,11 @@
 function madeByArjun() {
-    $("#made-by-arjun").attr("src", "https://rawgit.com/askalburgi/Made-By-Arjun-Icon/master/dependencies/Logo.svg"); 
+    // https://css-tricks.com/cascading-svg-fill-color/
+    $.get('https://rawgit.com/askalburgi/Made-By-Arjun-Icon/master/dependencies/Logo.svg', function (doc) {
+        var svg = doc.children[0]; 
+        svg.setAttribute("fill", $("#made-by-arjun").css("color")); 
+
+        $("#made-by-arjun").append(svg); 
+    });
 
     $("#made-by-arjun").hover(function () {
         // animate "Made by Arjun" msg

@@ -1,6 +1,8 @@
 #made-by-arjun {
-    float: right;
-    height: 30%;
-    /* Implement centering div */
-    /* Implement colour */
+    width: min-content;
+}
+
+#made-by-arjun svg {
+    height: inherit;
+    margin: 0 10px;
 }
