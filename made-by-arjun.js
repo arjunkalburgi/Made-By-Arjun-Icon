@@ -1,10 +1,19 @@
 function madeByArjun() {
+
+    $("#made-by-arjun").click(function () { 
+        
+     });
+
     // https://css-tricks.com/cascading-svg-fill-color/
     $.get('https://rawgit.com/askalburgi/Made-By-Arjun-Icon/master/dependencies/Logo.svg', function (doc) {
+    
         var svg = doc.children[0]; 
         svg.setAttribute("fill", $("#made-by-arjun").css("color")); 
-
+        
         $("#made-by-arjun").append(svg); 
+        $("#made-by-arjun").click(function () {
+            window.open("http://www.arjunkalburgi.com", '_blank', '', '');
+        })
     });
 
     $("#made-by-arjun").hover(function () {
