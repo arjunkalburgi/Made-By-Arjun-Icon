@@ -2,9 +2,6 @@
 The "Made by Arjun" icon widget for the corners of websites 
 
 ## Correct Usage
-
-
-## Place on your website 
 _Please ask me before implementing this, please do not put this on any website that I wasn't involved in._ 
 
 #### Step 1 - add js and css 
